@@ -125,9 +125,9 @@ Generate intelligent business recommendations such as:
 |---------|------------|
 | Backend | Node.js + Express.js |
 | Database | Convex |
-| AI Engine | Google Gemini 1.5 Flash |
-| Voice Recognition | ElevenLabs Scribe |
-| Text-to-Speech | ElevenLabs Multilingual |
+| AI Engine | Google Gemini |
+| Voice Recognition |
+| Text-to-Speech | Google Gemini 
 | File Uploads | Multer |
 | Validation | Joi |
 | Logging | Winston |
