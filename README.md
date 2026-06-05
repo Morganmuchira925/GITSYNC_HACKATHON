@@ -110,9 +110,9 @@ Generate intelligent business recommendations such as:
 │      Express.js REST API                             │
 │            │                                         │
 │    ┌───────┼────────┐                               │
-│    ▼       ▼        ▼                               │
-│ Gemini  ElevenLabs  Convex Database                  │
-│   AI      STT/TTS                                    │
+│    ▼                ▼                               │
+│ Gemini        Convex Database                  │
+│   AI                                       │
 │                                                      │
 └──────────────────────────────────────────────────────┘
 ```
