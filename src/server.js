@@ -107,6 +107,7 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   logger.info(`🚀 Fedha Backend running on port ${PORT}`);
   logger.info(`📊 Environment: ${process.env.NODE_ENV}`);
+  logger.info(`🧠 Gemini model: ${process.env.GEMINI_MODEL || "(unset)"}`);
   logger.info(`🔗 Health check: http://localhost:${PORT}/health`);
 });
 

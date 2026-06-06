@@ -11,7 +11,7 @@ import { logger } from "../utils/logger.js";
 import { AppError } from "../middleware/errorHandler.js";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const MODEL = process.env.GEMINI_MODEL || "gemini-1.5-flash";
+const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 
 // ── AUDIO MIME TYPE HELPER ──────────────────────────────
 function getAudioMimeType(filePath) {
@@ -176,7 +176,7 @@ Respond ONLY with valid JSON, no markdown:
  * @returns {Promise<ParsedReceipt>}
  */
 export async function parseReceiptImage(base64Image, mimeType = "image/jpeg") {
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: MODEL });
 
   const prompt = `
 You are an OCR + barcode-reading assistant for a financial app used by small traders in Kenya.
