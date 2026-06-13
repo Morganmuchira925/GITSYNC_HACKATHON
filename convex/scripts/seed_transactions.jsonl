@@ -1,0 +1,30 @@
+{"userId":"user_demo_001","type":"income","amount":450,"currency":"KES","description":"Tomatoes (2 debe)","category":"produce","source":"voice","confidence":0.95,"createdAt":1748563200000}
+{"userId":"user_demo_001","type":"expense","amount":1800,"currency":"KES","description":"Nairobi Wholesale Market stock","category":"groceries","source":"manual","confidence":0.99,"createdAt":1748563800000}
+{"userId":"user_demo_001","type":"income","amount":280,"currency":"KES","description":"Sukuma wiki (bundle)","category":"produce","source":"voice","confidence":0.91,"createdAt":1748649600000}
+{"userId":"user_demo_001","type":"expense","amount":120,"currency":"KES","description":"Matatu fare to market","category":"transport","source":"manual","confidence":0.99,"createdAt":1748650000000}
+{"userId":"user_demo_001","type":"income","amount":950,"currency":"KES","description":"Onions (1 sack)","category":"produce","source":"receipt_scan","confidence":0.88,"createdAt":1748736000000}
+{"userId":"user_demo_001","type":"expense","amount":200,"currency":"KES","description":"Market stall fee","category":"rent","source":"manual","confidence":0.99,"createdAt":1748736400000}
+{"userId":"user_demo_001","type":"income","amount":320,"currency":"KES","description":"Potatoes (5kg)","category":"produce","source":"voice","confidence":0.93,"createdAt":1748822400000}
+{"userId":"user_demo_001","type":"expense","amount":2400,"currency":"KES","description":"Nairobi Wholesale Market stock","category":"groceries","source":"manual","confidence":0.99,"createdAt":1748822800000}
+{"userId":"user_demo_001","type":"income","amount":180,"currency":"KES","description":"Managu (bunch)","category":"produce","source":"voice","confidence":0.87,"createdAt":1748908800000}
+{"userId":"user_demo_001","type":"income","amount":240,"currency":"KES","description":"Cabbage (3 heads)","category":"produce","source":"manual","confidence":0.99,"createdAt":1748909200000}
+{"userId":"user_demo_001","type":"expense","amount":650,"currency":"KES","description":"Electricity bill","category":"utilities","source":"manual","confidence":0.99,"createdAt":1748909600000}
+{"userId":"user_demo_001","type":"income","amount":380,"currency":"KES","description":"Carrots (2kg)","category":"produce","source":"voice","confidence":0.92,"createdAt":1748995200000}
+{"userId":"user_demo_001","type":"expense","amount":160,"currency":"KES","description":"Packing bags","category":"groceries","source":"manual","confidence":0.99,"createdAt":1748995600000}
+{"userId":"user_demo_001","type":"income","amount":520,"currency":"KES","description":"Tomatoes (2 debe)","category":"produce","source":"voice","confidence":0.94,"createdAt":1749081600000}
+{"userId":"user_demo_001","type":"expense","amount":3100,"currency":"KES","description":"Nairobi Wholesale Market stock","category":"groceries","source":"receipt_scan","confidence":0.90,"createdAt":1749082000000}
+{"userId":"user_demo_001","type":"income","amount":110,"currency":"KES","description":"Spinach (bundle)","category":"produce","source":"voice","confidence":0.89,"createdAt":1749168000000}
+{"userId":"user_demo_001","type":"expense","amount":80,"currency":"KES","description":"Phone airtime","category":"services","source":"manual","confidence":0.99,"createdAt":1749168400000}
+{"userId":"user_demo_001","type":"income","amount":1200,"currency":"KES","description":"Onions (1 sack)","category":"produce","source":"manual","confidence":0.99,"createdAt":1749254400000}
+{"userId":"user_demo_001","type":"expense","amount":200,"currency":"KES","description":"Market stall fee","category":"rent","source":"manual","confidence":0.99,"createdAt":1749254800000}
+{"userId":"user_demo_001","type":"income","amount":290,"currency":"KES","description":"Sukuma wiki (bundle)","category":"produce","source":"voice","confidence":0.91,"createdAt":1749340800000}
+{"userId":"user_demo_001","type":"expense","amount":100,"currency":"KES","description":"Matatu fare to market","category":"transport","source":"manual","confidence":0.99,"createdAt":1749341200000}
+{"userId":"user_demo_001","type":"income","amount":410,"currency":"KES","description":"Potatoes (5kg)","category":"produce","source":"voice","confidence":0.93,"createdAt":1749427200000}
+{"userId":"user_demo_001","type":"expense","amount":1950,"currency":"KES","description":"Nairobi Wholesale Market stock","category":"groceries","source":"manual","confidence":0.99,"createdAt":1749427600000}
+{"userId":"user_demo_001","type":"income","amount":170,"currency":"KES","description":"Cabbage (3 heads)","category":"produce","source":"voice","confidence":0.88,"createdAt":1749513600000}
+{"userId":"user_demo_001","type":"income","amount":560,"currency":"KES","description":"Tomatoes (2 debe)","category":"produce","source":"receipt_scan","confidence":0.86,"createdAt":1749600000000}
+{"userId":"user_demo_001","type":"expense","amount":720,"currency":"KES","description":"Electricity bill","category":"utilities","source":"manual","confidence":0.99,"createdAt":1749600400000}
+{"userId":"user_demo_001","type":"income","amount":140,"currency":"KES","description":"Managu (bunch)","category":"produce","source":"voice","confidence":0.90,"createdAt":1749686400000}
+{"userId":"user_demo_001","type":"expense","amount":2800,"currency":"KES","description":"Nairobi Wholesale Market stock","category":"groceries","source":"manual","confidence":0.99,"createdAt":1749686800000}
+{"userId":"user_demo_001","type":"income","amount":480,"currency":"KES","description":"Carrots (2kg)","category":"produce","source":"voice","confidence":0.94,"createdAt":1749772800000}
+{"userId":"user_demo_001","type":"expense","amount":200,"currency":"KES","description":"Market stall fee","category":"rent","source":"manual","confidence":0.99,"createdAt":1749773200000}
