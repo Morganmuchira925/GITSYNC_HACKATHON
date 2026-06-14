@@ -8,3 +8,406 @@
 2026-06-07 00:58:38 [[31merror[39m]: [Insights] Gemini failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-10 17:10:22 [[31merror[39m]: [Insights] Gemini failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-12 11:19:18 [[31merror[39m]: [Voice] Gemini parse failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-06-14 18:51:47 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:51:47 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:51:47 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:51:47 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:51:58 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:51:58 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 18:51:58 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:51:58 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 18:52:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:52:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:52:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:52:01 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:52:01 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:01:46 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 19:01:46 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:01:46 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 19:01:46 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:01:58 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:01:58 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:01:58 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:01:58 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 19:01:58 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:02:13 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:02:13 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:02:13 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:02:13 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 19:02:13 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:03:44 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:03:44 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:03:44 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:03:44 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:07:28 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:07:28 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:07:28 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:07:28 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:07:37 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:07:37 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:07:37 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:07:37 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:07:37 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:08:08 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:08:08 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:08:08 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:08:08 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:08:08 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:10:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:10:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:10:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:20:17 [[31merror[39m]: Convex mutation failed: [Request ID: 0f0c9f6a26122247] Server Error
+ArgumentValidationError: Value does not match validator.
+Path: .quantity
+Value: null
+Validator: v.float64()
+
+
+2026-06-14 19:28:54 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 19:28:54 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 19:29:17 [[31merror[39m]: Convex mutation failed: [Request ID: 3c151de71bad3e9e] Server Error
+ArgumentValidationError: Value does not match validator.
+Path: .quantity
+Value: null
+Validator: v.float64()
+
+
+2026-06-14 19:39:03 [[31merror[39m]: [Insights] Gemini failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 55.590496501s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"5"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
+2026-06-14 19:47:05 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 19:47:05 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 19:47:12 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 19:47:12 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 19:59:57 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 19:59:57 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 20:00:46 [[31merror[39m]: [Insights] Gemini failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 12.849582103s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"12s"}]
+2026-06-14 20:00:47 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:00:47 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 20:00:47 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:00:47 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 20:01:03 [[31merror[39m]: [Insights] Gemini failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 56.187546316s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+2026-06-14 20:07:57 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:07:57 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 20:13:27 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:14:49 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:15:57 [[31merror[39m]: [STT] Gemini transcription failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 1.771799484s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"1s"}]
+2026-06-14 20:19:18 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:19:35 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:42:52 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:48:08 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:53:39 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 21:01:30 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 21:02:06 [[31merror[39m]: [ClerkAuth] Token verification failed: JWT is expired. Expiry date: Sun, 14 Jun 2026 18:01:55 GMT, Current date: Sun, 14 Jun 2026 18:02:06 GMT.
+2026-06-14 21:05:13 [[31merror[39m]: [Auth Sync Critical Failure]: <none>
+2026-06-14 21:10:16 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 21:15:27 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}

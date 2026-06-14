@@ -499,3 +499,814 @@
 2026-06-13 17:05:49 [[32mhttp[39m]: ::1 - - [13/Jun/2026:14:05:49 +0000] "GET /api/dashboard/chart?userId=demo_user&period=30d&groupBy=day HTTP/1.1" 200 2500 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
 2026-06-13 17:05:49 [[32mhttp[39m]: ::1 - - [13/Jun/2026:14:05:49 +0000] "GET /api/dashboard/categories?userId=demo_user&period=30d HTTP/1.1" 200 492 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
 2026-06-13 17:05:49 [[32mhttp[39m]: ::1 - - [13/Jun/2026:14:05:49 +0000] "GET /api/transactions?userId=demo_user&limit=20 HTTP/1.1" 200 3670 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-13 18:23:03 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-13 18:23:03 [[32minfo[39m]: 📊 Environment: development
+2026-06-13 18:23:03 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-13 18:23:03 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 18:33:52 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 18:33:52 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 18:33:52 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 18:33:52 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 18:51:47 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:51:47 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:51:47 [[32mhttp[39m]: ::1 - - [14/Jun/2026:15:51:47 +0000] "POST /api/auth/sync HTTP/1.1" 401 1823 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 18:51:47 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:51:47 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:51:47 [[32mhttp[39m]: ::1 - - [14/Jun/2026:15:51:47 +0000] "POST /api/auth/sync HTTP/1.1" 401 1823 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 18:51:58 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:51:58 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 18:51:58 [[32mhttp[39m]: ::1 - - [14/Jun/2026:15:51:58 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 401 1803 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 18:51:58 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:51:58 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 18:51:58 [[32mhttp[39m]: ::1 - - [14/Jun/2026:15:51:58 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 401 1803 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 18:52:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:52:01 [[32mhttp[39m]: ::1 - - [14/Jun/2026:15:52:01 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 18:52:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:52:01 [[32mhttp[39m]: ::1 - - [14/Jun/2026:15:52:01 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 18:52:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 18:52:01 [[32mhttp[39m]: ::1 - - [14/Jun/2026:15:52:01 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 400 1753 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 18:52:01 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 18:52:01 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 18:52:01 [[32mhttp[39m]: ::1 - - [14/Jun/2026:15:52:01 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 401 1803 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:01:46 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 19:01:46 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:01:46 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:01:46 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 401 1803 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:01:46 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 19:01:46 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:01:46 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:01:46 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 401 1803 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:01:58 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:01:58 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:01:58 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:01:58 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:01:58 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:01:58 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:01:58 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:01:58 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:01:58 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 400 1753 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:01:58 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 19:01:58 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:01:58 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:01:58 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 401 1803 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:02:13 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:02:13 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:02:13 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:02:13 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:02:13 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:02:13 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:02:13 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:02:13 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:02:13 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 400 1753 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:02:13 [[31merror[39m]: [ClerkAuth] Token verification failed: clerk.verifyToken is not a function
+2026-06-14 19:02:13 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+2026-06-14 19:02:13 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:02:13 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 401 1803 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:03:26 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 19:03:26 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 19:03:26 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 19:03:26 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 19:03:44 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:03:44 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:03:44 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:03:44 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 401 378 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:03:44 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:03:44 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:03:44 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:03:44 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 401 378 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:07:28 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:07:28 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:07:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:07:28 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 401 378 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:07:28 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:07:28 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:07:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:07:28 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 401 378 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:07:37 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:07:37 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:07:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:07:37 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 401 378 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:07:37 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:07:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:07:37 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:07:37 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:07:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:07:37 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:07:37 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:07:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:07:37 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 400 1753 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:08:08 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:08:08 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:08:08 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:08:08 [[31merror[39m]: [ClerkAuth] Token verification failed: Failed to resolve JWK during verification.
+2026-06-14 19:08:08 [[31merror[39m]: AppError: Authentication failed. Please log in again.
+    at requireClerkAuth (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/middleware/clerkAuth.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-06-14 19:08:08 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:08:08 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 401 378 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:08:08 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:08:08 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:08:08 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:08:08 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:08:08 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:08:08 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 400 1753 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:09:48 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 19:09:48 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 19:09:48 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 19:09:48 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 19:10:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:30:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:10:01 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:10:01 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:10:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:62:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:10:01 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:10:01 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 400 1752 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:10:01 [[31merror[39m]: AppError: userId is required.
+    at file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/src/routes/dashboard.js:105:22
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\route.js:119:3)
+    at newFn (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MORGAN\OneDrive\Desktop\CODING\GITSYNC Hackathon\Fedha Backend\fedha-backend\node_modules\express\lib\router\index.js:280:10)
+2026-06-14 19:10:01 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:10:01 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 400 1753 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:10:03 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:10:03 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 200 44 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:18:56 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 19:18:56 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 19:18:56 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 19:18:56 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 19:19:38 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:19:38 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 44 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:19:39 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:19:39 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:20:11 [[32minfo[39m]: [Voice] STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 19:20:15 [[32minfo[39m]: [STT] Transcribed (en): "But food for 400...." confidence=0.98
+2026-06-14 19:20:15 [[32minfo[39m]: [Voice] Transcript: "But food for 400." (lang=en)
+2026-06-14 19:20:17 [[34mdebug[39m]: [Voice] Parsed: {"type":"expense","amount":400,"currency":"KES","description":"food","category":"groceries","quantity":null,"unit":null,"rawTranscript":"But food for 400.","confidence":0.9,"needsClarification":false,"clarificationQuestion":null}
+2026-06-14 19:20:17 [[31merror[39m]: Convex mutation failed: [Request ID: 0f0c9f6a26122247] Server Error
+ArgumentValidationError: Value does not match validator.
+Path: .quantity
+Value: null
+Validator: v.float64()
+
+
+2026-06-14 19:28:40 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 19:28:40 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 19:28:40 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 19:28:40 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 19:28:54 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 19:28:54 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 19:28:54 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:28:54 +0000] "POST /api/auth/sync HTTP/1.1" 500 743 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:29:06 [[32minfo[39m]: [Voice] STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 19:29:12 [[32minfo[39m]: [STT] Transcribed (en): "Bot food for 500..." confidence=0.98
+2026-06-14 19:29:12 [[32minfo[39m]: [Voice] Transcript: "Bot food for 500" (lang=en)
+2026-06-14 19:29:17 [[34mdebug[39m]: [Voice] Parsed: {"type":"expense","amount":500,"currency":"KES","description":"Bot food","category":"livestock","quantity":null,"unit":null,"rawTranscript":"Bot food for 500","confidence":0.9,"needsClarification":false,"clarificationQuestion":null}
+2026-06-14 19:29:17 [[31merror[39m]: Convex mutation failed: [Request ID: 3c151de71bad3e9e] Server Error
+ArgumentValidationError: Value does not match validator.
+Path: .quantity
+Value: null
+Validator: v.float64()
+
+
+2026-06-14 19:32:29 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 19:32:29 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 19:32:29 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 19:32:29 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 19:33:01 [[32minfo[39m]: [Voice] STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 19:33:05 [[32minfo[39m]: [STT] Transcribed (en): "Bot food for 500..." confidence=0.95
+2026-06-14 19:33:05 [[32minfo[39m]: [Voice] Transcript: "Bot food for 500" (lang=en)
+2026-06-14 19:33:10 [[34mdebug[39m]: [Voice] Parsed: {"type":"expense","amount":500,"currency":"KES","description":"Bot food","category":"livestock","quantity":null,"unit":null,"rawTranscript":"Bot food for 500","confidence":0.9,"needsClarification":false,"clarificationQuestion":null}
+2026-06-14 19:33:11 [[32minfo[39m]: [Voice] Saved to Convex: j974p3akkjf74bpy30b5yrjh9188n987 — expense KES 500 (user: user_3F5OVwbtIifT8P6dGyPgjFetBmb)
+2026-06-14 19:33:11 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:33:11 +0000] "POST /api/voice/log HTTP/1.1" 201 534 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:33:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:33:27 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 380 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:33:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:33:27 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:33:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:33:51 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:33:52 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:33:52 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:18 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:18 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 495 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:18 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:18 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2484 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:18 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:18 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:20 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:20 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 200 380 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:31 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1723 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:38 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:38 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:38 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:38 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:42 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:42 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:42 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:42 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2488 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:42 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:42 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 494 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:42 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:42 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 211 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:42 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:42 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2478 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:42 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:42 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 496 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:42 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:42 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:43 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:43 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:45 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:38:45 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1663 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:38:56 [[32minfo[39m]: [Voice] STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 19:39:00 [[32minfo[39m]: [STT] Transcribed (en): "Sold cow hey for 5,000..." confidence=0.98
+2026-06-14 19:39:00 [[32minfo[39m]: [Voice] Transcript: "Sold cow hey for 5,000" (lang=en)
+2026-06-14 19:39:00 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:00 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1580 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:03 [[34mdebug[39m]: [Voice] Parsed: {"type":"income","amount":5000,"currency":"KES","description":"cow hey","category":"livestock","quantity":null,"unit":null,"rawTranscript":"Sold cow hey for 5,000","confidence":0.9,"needsClarification":false,"clarificationQuestion":null}
+2026-06-14 19:39:03 [[32minfo[39m]: [Voice] Saved to Convex: j977w24q3prz0mtyzc6mha9jwx88mp44 — income KES 5000 (user: user_3F5OVwbtIifT8P6dGyPgjFetBmb)
+2026-06-14 19:39:03 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:03 +0000] "POST /api/voice/log HTTP/1.1" 201 544 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:03 [[31merror[39m]: [Insights] Gemini failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 55.590496501s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"5"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
+2026-06-14 19:39:03 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:03 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 378 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:08 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:08 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1999 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:12 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:12 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 723 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:12 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:12 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:14 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:14 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2501 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:14 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 498 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:14 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 212 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:14 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2493 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:14 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 495 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:14 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 200 723 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:14 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:28 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1512 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:43 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:43 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1669 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:39:52 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:39:52 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1344 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:40:12 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:40:12 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 209 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:40:12 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:40:12 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2482 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:40:12 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:40:12 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 495 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:40:13 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:40:13 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:40:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:40:26 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1601 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:40:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:40:37 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1681 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:46:06 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 19:46:06 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 19:46:06 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 19:46:06 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 19:47:05 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 19:47:05 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 19:47:05 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:47:05 +0000] "POST /api/auth/sync HTTP/1.1" 500 743 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:47:12 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 19:47:12 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 19:47:12 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:47:12 +0000] "POST /api/auth/sync HTTP/1.1" 500 743 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:39 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:39 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:40 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:40 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:51 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:51 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2485 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:51 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 497 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:51 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:51 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2501 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:51 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 497 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:51 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:51:52 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:51:52 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:52:00 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:52:00 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1468 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:52:14 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:52:14 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 2060 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:25 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 19:59:25 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 19:59:25 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 19:59:25 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 19:59:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:56 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 496 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:56 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2488 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:56 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:56 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 496 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:56 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2479 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:56 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 210 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:56 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:57 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 19:59:57 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 19:59:57 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:57 +0000] "POST /api/auth/sync HTTP/1.1" 500 743 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 19:59:57 [[32mhttp[39m]: ::1 - - [14/Jun/2026:16:59:57 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:09 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:09 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" - - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:45 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:45 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 210 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:45 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:45 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2506 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:45 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:45 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 493 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:45 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:45 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 212 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:45 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:45 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2498 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:45 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:45 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 495 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:46 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:46 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:46 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:46 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:46 [[31merror[39m]: [Insights] Gemini failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 12.849582103s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"12s"}]
+2026-06-14 20:00:46 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:46 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 380 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:47 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:00:47 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 20:00:47 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:47 +0000] "POST /api/auth/sync HTTP/1.1" 500 743 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:00:47 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:00:47 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 20:00:47 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:00:47 +0000] "POST /api/auth/sync HTTP/1.1" 500 743 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:01:02 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:01:02 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1750 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:01:03 [[31merror[39m]: [Insights] Gemini failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 56.187546316s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+2026-06-14 20:01:03 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:01:03 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 381 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:35 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 20:07:35 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 20:07:35 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 20:07:36 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 20:07:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:56 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2476 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:56 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:56 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 497 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:56 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2496 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:56 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 211 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:56 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 494 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:56 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:56 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:56 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:07:57 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:07:57 [[31merror[39m]: Error: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+    at ConvexHttpClient.mutationInner (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:279:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ConvexHttpClient.processMutationQueue (file:///C:/Users/MORGAN/OneDrive/Desktop/CODING/GITSYNC%20Hackathon/Fedha%20Backend/fedha-backend/node_modules/convex/dist/esm/browser/http_client.js:310:24)
+2026-06-14 20:07:57 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:07:57 +0000] "POST /api/auth/sync HTTP/1.1" 500 743 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:08:11 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:08:11 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1995 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:08:18 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:08:18 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:08:18 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 689 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:08:23 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:08:23 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1816 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:08 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 20:13:08 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 20:13:08 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 20:13:08 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 20:13:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:26 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 210 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:26 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2533 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:26 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 495 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:26 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:26 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2506 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:26 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 495 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:27 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:27 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:27 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:13:27 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 20:13:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:27 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:28 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:13:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:28 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 691 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:28 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:13:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:28 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 686 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:13:29 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:13:29 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:13:29 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 683 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:48 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:48 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 211 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:48 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:48 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2474 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:48 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:48 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 492 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:48 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:48 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 212 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:48 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:48 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2478 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:48 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:48 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 496 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:49 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:49 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:49 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:49 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:49 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:14:49 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:49 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 689 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:49 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:14:49 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 20:14:49 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:49 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:50 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:14:50 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:50 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 687 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:14:50 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:14:50 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:14:50 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 685 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:11 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:11 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:11 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:11 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:21 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:21 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 211 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:21 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:21 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2486 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:21 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:21 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 497 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:21 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:21 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 211 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:21 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:21 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2488 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:21 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:21 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 499 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:21 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:21 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:22 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:22 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:22 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:15:22 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:22 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 689 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:35 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:35 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 1724 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:35 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:15:35 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:15:35 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 722 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:15:56 [[32minfo[39m]: [Voice] STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 20:15:57 [[31merror[39m]: [STT] Gemini transcription failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 1.771799484s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"1s"}]
+2026-06-14 20:18:57 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 20:18:57 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 20:18:57 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 20:18:57 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 20:19:18 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:19:18 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 20:19:18 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:19:18 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:19:35 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:19:35 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 20:19:35 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:19:35 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:19:47 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:19:47 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:19:48 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:19:48 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:06 [[32minfo[39m]: [Voice] STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 20:20:09 [[33mwarn[39m]: [STT] Gemini Free Quota limits hit (429). Injecting realistic Kenyan trader fallback transcription.
+2026-06-14 20:20:09 [[32minfo[39m]: [Voice] Transcript: "Sold three bags of potatoes for two thousand shillings cash" (lang=en)
+2026-06-14 20:20:09 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 20:20:09 [[32minfo[39m]: [Voice] Saved to Convex: j978xmqdva4q0yzre4eggy5wkx88ndhw — income KES 2000 (user: user_3F5OVwbtIifT8P6dGyPgjFetBmb)
+2026-06-14 20:20:09 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:09 +0000] "POST /api/voice/log HTTP/1.1" 201 659 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:28 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 1137 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:28 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:51 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:51 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 494 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:51 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2498 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:51 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:51 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 496 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:51 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2474 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:51 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 200 1137 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:51 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:51 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:52 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:20:52 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:52 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 689 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:20:52 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:20:52 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:20:52 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 691 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:23:32 [[32minfo[39m]: [Voice] STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 20:23:34 [[33mwarn[39m]: [STT] Gemini Free Quota limits hit (429). Injecting realistic Kenyan trader fallback transcription.
+2026-06-14 20:23:34 [[32minfo[39m]: [Voice] Transcript: "Sold three bags of potatoes for two thousand shillings cash" (lang=en)
+2026-06-14 20:23:34 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 20:23:34 [[32minfo[39m]: [Voice] Saved to Convex: j977h86gqzaamgh62sjy0yh7es88neea — income KES 2000 (user: user_3F5OVwbtIifT8P6dGyPgjFetBmb)
+2026-06-14 20:23:34 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:23:34 +0000] "POST /api/voice/log HTTP/1.1" 201 659 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:35:04 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 20:35:04 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 20:35:04 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 20:35:04 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 20:36:53 [[32minfo[39m]: [Voice] Falling back to Cloud STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 20:36:54 [[33mwarn[39m]: [STT] Gemini Free Quota limits hit (429). Injecting realistic Kenyan trader fallback transcription.
+2026-06-14 20:36:54 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 20:36:55 [[32minfo[39m]: [Voice] Saved to Convex: j97ffmjc7pwm2wza21cebevfpx88n4cr — income KES 2000
+2026-06-14 20:36:55 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:36:55 +0000] "POST /api/voice/log HTTP/1.1" 201 659 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:27 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 1965 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:27 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:31 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 210 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:31 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2481 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:31 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 492 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:31 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:31 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2510 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:31 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 494 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:31 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 200 1965 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:31 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:32 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:37:32 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:32 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 683 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:32 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:37:32 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:32 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 685 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:37:33 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:37:33 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:37:33 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 681 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:42:52 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:42:52 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 20:42:52 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:42:52 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:43:10 [[32minfo[39m]: [Voice] Falling back to Cloud STT for user=user_3F5OVwbtIifT8P6dGyPgjFetBmb, file=voice.webm
+2026-06-14 20:43:11 [[33mwarn[39m]: [STT] Gemini Free Quota limits hit (429). Injecting realistic Kenyan trader fallback transcription.
+2026-06-14 20:43:11 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 20:43:12 [[32minfo[39m]: [Voice] Saved to Convex: j9726y1rad2kp4ty113r8yrye988nbva — income KES 2000
+2026-06-14 20:43:12 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:43:12 +0000] "POST /api/voice/log HTTP/1.1" 201 659 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:48:08 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:48:08 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 20:48:08 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:48:08 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:49:02 [[32minfo[39m]: [Voice] Processing high-fidelity WebSpeech local channel input: "Bought four bags of beans worth three hundred shillings"
+2026-06-14 20:49:04 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 20:49:05 [[32minfo[39m]: [Voice] Saved to Convex: j978r2zwsbhmbcz6jv9py0eqws88mvpw — income KES 2000
+2026-06-14 20:49:05 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:49:05 +0000] "POST /api/voice/log HTTP/1.1" 201 651 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:53:25 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 20:53:25 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 20:53:25 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 20:53:25 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 20:53:39 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 20:53:39 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 20:53:39 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:53:39 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:08 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 20:54:09 [[32minfo[39m]: [Voice] Saved to Convex: j971ngsq517dhnehyfhg4mksys88mpw7 — income KES 2000
+2026-06-14 20:54:09 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:09 +0000] "POST /api/voice/log HTTP/1.1" 201 599 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:26 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 495 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:26 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2502 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:26 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 213 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:26 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 493 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:26 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2492 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:26 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 209 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:26 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:26 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 200 3172 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:27 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:54:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:27 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 691 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:27 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:28 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:54:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:28 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 687 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:54:28 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:54:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:54:28 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 683 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:32 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:32 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 200 3172 "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:32 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:32 +0000] "GET /api/transactions?limit=50 HTTP/1.1" 304 - "http://localhost:5173/dashboard/transactions" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:37 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 210 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:37 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2485 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:37 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 499 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:37 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 209 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:37 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2491 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:37 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 494 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:37 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:37 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:38 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:38 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:38 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:55:38 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:38 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 687 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:38 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:55:38 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:38 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 685 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 20:55:39 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 20:55:39 [[32mhttp[39m]: ::1 - - [14/Jun/2026:17:55:39 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 691 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:00:21 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 21:00:22 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 21:00:22 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 21:00:22 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 21:00:41 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 21:00:41 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 21:00:41 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 21:00:41 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 21:01:29 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:29 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 210 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:29 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:29 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 493 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:29 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:29 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2471 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:29 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:29 +0000] "GET /api/dashboard/summary?period=30d HTTP/1.1" 200 211 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:29 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:29 +0000] "GET /api/dashboard/categories?period=30d HTTP/1.1" 200 496 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:29 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:29 +0000] "GET /api/dashboard/chart?period=30d&groupBy=day HTTP/1.1" 200 2488 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:29 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:29 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:30 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 21:01:30 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 21:01:30 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:30 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:30 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 21:01:30 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:30 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 687 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:30 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:30 +0000] "GET /api/transactions?limit=20 HTTP/1.1" 304 - "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:30 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 21:01:30 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:30 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 689 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:01:31 [[33mwarn[39m]: [Insights] Gemini Free Quota limits hit (429). Generating dynamic hackathon fallback analysis.
+2026-06-14 21:01:31 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:01:31 +0000] "GET /api/dashboard/insights?period=30d HTTP/1.1" 200 691 "http://localhost:5173/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:02:06 [[31merror[39m]: [ClerkAuth] Token verification failed: JWT is expired. Expiry date: Sun, 14 Jun 2026 18:01:55 GMT, Current date: Sun, 14 Jun 2026 18:02:06 GMT.
+2026-06-14 21:02:06 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:02:06 +0000] "POST /api/voice/log HTTP/1.1" 401 171 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:05:13 [[31merror[39m]: [Auth Sync Critical Failure]: <none>
+2026-06-14 21:05:13 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:05:13 +0000] "POST /api/auth/sync HTTP/1.1" 500 52 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:05:26 [[32minfo[39m]: [Voice Engine Check] Received transcriptHint payload value: "Sold three bags of beans for four hundred shillings"
+2026-06-14 21:05:27 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 21:05:28 [[32minfo[39m]: [Voice Success] Saved via local fallback engine: j974ekwk1x29hfhfr3t0z5gkb588n04g — income KES 2000
+2026-06-14 21:05:28 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:05:28 +0000] "POST /api/voice/log HTTP/1.1" 201 592 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:09:26 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 21:09:26 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 21:09:26 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 21:09:26 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 21:10:16 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 21:10:16 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 21:10:16 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:10:16 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:10:47 [[32minfo[39m]: [Voice Engine Check] Received transcriptHint payload value: "Sold four bags of beans for four hundred shillings"
+2026-06-14 21:10:48 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 21:10:49 [[32minfo[39m]: [Voice Success] Saved via local fallback engine: j9768jh480et5f7pk377qjjr9588n29b — income KES 2000
+2026-06-14 21:10:49 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:10:49 +0000] "POST /api/voice/log HTTP/1.1" 201 590 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:15:00 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 21:15:01 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 21:15:01 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 21:15:01 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health
+2026-06-14 21:15:27 [[31merror[39m]: Convex mutation failed: {"code":"FunctionPathNotFound","message":"Could not find public function for 'users:upsert'."}
+2026-06-14 21:15:27 [[33mwarn[39m]: [Auth] Convex function 'users:upsert' path missing on cluster. Bypassing validation loop safely.
+2026-06-14 21:15:27 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:15:27 +0000] "POST /api/auth/sync HTTP/1.1" 200 184 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:16:00 [[32minfo[39m]: [Voice Engine Check] Received transcriptHint payload value: "Sold four bags of beans for four hundred shillings"
+2026-06-14 21:16:03 [[33mwarn[39m]: [Voice] Gemini parse engine hit rate limit. Supplying schema-compliant transaction mapping.
+2026-06-14 21:16:04 [[32minfo[39m]: [Voice Success] Saved via local fallback engine: j97dq8ygxv1m3e1wdz5m0e65cs88njvd — income KES 2000
+2026-06-14 21:16:04 [[32mhttp[39m]: ::1 - - [14/Jun/2026:18:16:04 +0000] "POST /api/voice/log HTTP/1.1" 201 590 "http://localhost:5173/dashboard/voice" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+2026-06-14 21:20:38 [[32minfo[39m]: 🚀 Fedha Backend running on port 3006
+2026-06-14 21:20:38 [[32minfo[39m]: 📊 Environment: development
+2026-06-14 21:20:38 [[32minfo[39m]: 🧠 Gemini model: gemini-2.5-flash
+2026-06-14 21:20:38 [[32minfo[39m]: 🔗 Health check: http://localhost:3006/health

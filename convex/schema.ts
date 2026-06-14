@@ -1,5 +1,5 @@
 // ============================================
-// CONVEX SCHEMA — Fedha Database
+// CONVEX SCHEMA — Fedha Database (Optimized)
 // Deploy with: npx convex deploy
 // ============================================
 
@@ -31,12 +31,13 @@ export default defineSchema({
     description: v.string(),
     category: v.string(),
 
-    // Optional enrichment
-    quantity: v.optional(v.number()),
-    unit: v.optional(v.string()),
-    vendor: v.optional(v.string()),
-    receiptNumber: v.optional(v.string()),
-    notes: v.optional(v.string()),
+    // OPTIMIZATION (CRITICAL BUG FIX): Wrapped with v.union(..., v.null())
+    // This stops the ArgumentValidationError crash when the AI parses missing fields as null.
+    quantity: v.optional(v.union(v.number(), v.null())),
+    unit: v.optional(v.union(v.string(), v.null())),
+    vendor: v.optional(v.union(v.string(), v.null())),
+    receiptNumber: v.optional(v.union(v.string(), v.null())),
+    notes: v.optional(v.union(v.string(), v.null())),
 
     // Metadata
     source: v.union(
@@ -52,12 +53,12 @@ export default defineSchema({
     updatedAt: v.optional(v.number()),
   })
     .index("by_userId", ["userId"])
-    .index("by_userId_type", ["userId", "type"])
-    .index("by_userId_category", ["userId", "category"])
+    // OPTIMIZATION: Compound index sorted by date for fast, prioritized dashboard lookups
+    .index("by_userId_type_createdAt", ["userId", "type", "createdAt"])
+    .index("by_userId_category_createdAt", ["userId", "category", "createdAt"])
     .index("by_userId_createdAt", ["userId", "createdAt"]),
 
   // ── Daily Summaries (cached aggregates) ──────
-  // Pre-computed daily summaries for fast dashboard queries
   dailySummaries: defineTable({
     userId: v.string(),
     date: v.string(),                       // "YYYY-MM-DD"
@@ -68,10 +69,10 @@ export default defineSchema({
     topCategory: v.optional(v.string()),
     computedAt: v.number(),
   })
+    // OPTIMIZATION: Sorted date filtering index for blazing fast date-range metric lookups
     .index("by_userId_date", ["userId", "date"]),
 
   // ── AI Insights Cache ─────────────────────────
-  // Cache Gemini insights to avoid repeated API calls
   insightsCache: defineTable({
     userId: v.string(),
     period: v.string(),                     // "7d" | "30d" | "90d"
@@ -79,5 +80,7 @@ export default defineSchema({
     computedAt: v.number(),
     expiresAt: v.number(),                  // Cache TTL
   })
-    .index("by_userId_period", ["userId", "period"]),
+    .index("by_userId_period", ["userId", "period"])
+    // OPTIMIZATION: Helps clean up stale cache entries seamlessly via background crons
+    .index("by_expiresAt", ["expiresAt"]),
 });

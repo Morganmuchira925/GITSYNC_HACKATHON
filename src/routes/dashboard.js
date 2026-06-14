@@ -1,9 +1,9 @@
 // ============================================
 // DASHBOARD ROUTES
-// GET /api/dashboard/summary?userId=&period=
-// GET /api/dashboard/chart?userId=&period=&groupBy=
-// GET /api/dashboard/insights?userId=&period=
-// GET /api/dashboard/categories?userId=&period=
+// GET /api/dashboard/summary?period=
+// GET /api/dashboard/chart?period=&groupBy=
+// GET /api/dashboard/insights?period=
+// GET /api/dashboard/categories?period=
 // ============================================
 
 import express from "express";
@@ -11,7 +11,13 @@ import { runQuery } from "../utils/convexClient.js";
 import { generateFinancialInsights } from "../services/geminiService.js";
 import { AppError } from "../middleware/errorHandler.js";
 
+// ADDED CHANGE: Import your Clerk authentication middleware
+import { requireClerkAuth } from "../middleware/clerkAuth.js";
+
 const router = express.Router();
+
+// ADDED CHANGE: Protect all endpoints inside this router file with Clerk verification
+router.use(requireClerkAuth);
 
 // Utility: get start timestamp for a period
 function periodToTimestamp(period) {
@@ -22,11 +28,14 @@ function periodToTimestamp(period) {
 }
 
 /**
- * GET /api/dashboard/summary?userId=&period=30d
+ * GET /api/dashboard/summary?period=30d
  * Returns: total income, total expenses, net profit, transaction count
  */
 router.get("/summary", async (req, res) => {
-  const { userId, period = "30d" } = req.query;
+  const { period = "30d" } = req.query;
+  
+  // UPDATED CHANGE: Use the secure user identity injected by the middleware
+  const userId = req.userId;
   if (!userId) throw new AppError("userId is required.", 400);
 
   // const transactions = await runQuery(api.transactions.list, { userId, from: periodToTimestamp(period) });
@@ -53,12 +62,15 @@ router.get("/summary", async (req, res) => {
 });
 
 /**
- * GET /api/dashboard/chart?userId=&period=30d&groupBy=day
+ * GET /api/dashboard/chart?period=30d&groupBy=day
  * Returns: time series data for chart rendering
  * groupBy: "day" | "week"
  */
 router.get("/chart", async (req, res) => {
-  const { userId, period = "30d", groupBy = "day" } = req.query;
+  const { period = "30d", groupBy = "day" } = req.query;
+  
+  // UPDATED CHANGE: Pull userId from req context object instead of query parameters
+  const userId = req.userId;
   if (!userId) throw new AppError("userId is required.", 400);
 
   // const transactions = await runQuery(api.transactions.list, { userId, from: periodToTimestamp(period) });
@@ -97,11 +109,14 @@ router.get("/chart", async (req, res) => {
 });
 
 /**
- * GET /api/dashboard/categories?userId=&period=30d
+ * GET /api/dashboard/categories?period=30d
  * Returns: spending breakdown by category (for pie/donut chart)
  */
 router.get("/categories", async (req, res) => {
-  const { userId, period = "30d" } = req.query;
+  const { period = "30d" } = req.query;
+  
+  // UPDATED CHANGE: Pull userId securely via middleware verification wrapper
+  const userId = req.userId;
   if (!userId) throw new AppError("userId is required.", 400);
 
   const transactions = generateMockTransactions(userId, 40);
@@ -126,11 +141,14 @@ router.get("/categories", async (req, res) => {
 });
 
 /**
- * GET /api/dashboard/insights?userId=&period=30d
+ * GET /api/dashboard/insights?period=30d
  * Returns: AI-generated financial health insights (Gemini)
  */
 router.get("/insights", async (req, res) => {
-  const { userId, period = "30d" } = req.query;
+  const { period = "30d" } = req.query;
+  
+  // UPDATED CHANGE: Access authenticated token owner's userId context
+  const userId = req.userId;
   if (!userId) throw new AppError("userId is required.", 400);
 
   const transactions = generateMockTransactions(userId, 40);

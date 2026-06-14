@@ -11,23 +11,24 @@
     "convex:deploy": "convex deploy"
   },
   "dependencies": {
+    "@clerk/express": "^2.1.26",
     "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
     "convex": "^1.17.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-async-errors": "^3.1.1",
-    "multer": "^1.4.5-lts.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "helmet": "^8.0.0",
-    "morgan": "^1.10.0",
     "express-rate-limit": "^7.4.1",
-    "joi": "^17.13.3",
-    "axios": "^1.7.9",
     "form-data": "^4.0.1",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.5",
     "uuid": "^11.0.3",
-    "date-fns": "^4.1.0",
-    "winston": "^3.17.0",
-    "sharp": "^0.33.5"
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
